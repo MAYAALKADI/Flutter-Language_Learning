@@ -1,0 +1,17 @@
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.cc linguist-detectable=false
+*.cxx linguist-detectable=false
+
+windows/* linguist-detectable=false
+windows/** linguist-detectable=false
+android/* linguist-detectable=false
+android/** linguist-detectable=false
+ios/* linguist-detectable=false
+ios/** linguist-detectable=false
+linux/* linguist-detectable=false
+linux/** linguist-detectable=false
+macos/* linguist-detectable=false
+macos/** linguist-detectable=false
+
+*.dart linguist-detectable=true

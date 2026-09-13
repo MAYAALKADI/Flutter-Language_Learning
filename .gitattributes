@@ -1,17 +1,14 @@
-*.cpp linguist-detectable=false
-*.h linguist-detectable=false
-*.cc linguist-detectable=false
-*.cxx linguist-detectable=false
+# Ignore C++ and Native Desktop code from GitHub language statistics
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.cc linguist-vendored
+*.cxx linguist-vendored
+*.cmake linguist-vendored
 
-windows/* linguist-detectable=false
-windows/** linguist-detectable=false
-android/* linguist-detectable=false
-android/** linguist-detectable=false
-ios/* linguist-detectable=false
-ios/** linguist-detectable=false
-linux/* linguist-detectable=false
-linux/** linguist-detectable=false
-macos/* linguist-detectable=false
-macos/** linguist-detectable=false
+android/* linguist-vendored
+ios/* linguist-vendored
+windows/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
 
 *.dart linguist-detectable=true
